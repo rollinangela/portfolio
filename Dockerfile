@@ -18,9 +18,17 @@ RUN composer install --no-dev --optimize-autoloader
 
 RUN npm install && npm run build
 
-RUN chown -R www-data:www-data storage bootstrap/cache
+# Set Laravel public folder as Apache document root
+ENV APACHE_DOCUMENT_ROOT /var/www/html/public
+
+RUN sed -ri -e 's!/var/www/html!${APACHE_DOCUMENT_ROOT}!g' \
+    /etc/apache2/sites-available/*.conf \
+    /etc/apache2/apache2.conf \
+    /etc/apache2/conf-available/*.conf
 
 RUN a2enmod rewrite
+
+RUN chown -R www-data:www-data storage bootstrap/cache
 
 EXPOSE 80
 
