@@ -1,0 +1,113 @@
+/* ===========================
+   NAVBAR
+=========================== */
+
+.custom-navbar{
+
+    background:rgba(255,255,255,.92);
+
+    backdrop-filter:blur(18px);
+
+    border-bottom:1px solid #E5E7EB;
+
+    padding:18px 0;
+
+    transition:.3s;
+
+}
+
+.logo{
+
+    font-size:2rem;
+
+    font-weight:800;
+
+    color:#1F2937 !important;
+
+    text-decoration:none;
+
+}
+
+.logo span{
+
+    color:#8B5CF6;
+
+}
+
+.navbar-nav{
+
+    gap:18px;
+
+}
+
+.nav-link{
+
+    color:#6B7280 !important;
+
+    font-weight:500;
+
+    position:relative;
+
+    transition:.3s;
+
+}
+
+.nav-link:hover{
+
+    color:#8B5CF6 !important;
+
+}
+
+.nav-link.active{
+
+    color:#8B5CF6 !important;
+
+}
+
+.nav-link.active::after{
+
+    content:"";
+
+    position:absolute;
+
+    left:50%;
+
+    transform:translateX(-50%);
+
+    bottom:-8px;
+
+    width:7px;
+
+    height:7px;
+
+    background:#8B5CF6;
+
+    border-radius:50%;
+
+}
+
+.btn-download{
+
+    color:#8B5CF6;
+
+    border:1px solid #8B5CF6;
+
+    border-radius:14px;
+
+    padding:12px 22px;
+
+    transition:.3s;
+
+    background:white;
+
+}
+
+.btn-download:hover{
+
+    background:#8B5CF6;
+
+    color:white;
+
+    box-shadow:0 8px 25px rgba(139,92,246,.25);
+
+}

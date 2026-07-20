@@ -1,0 +1,91 @@
+/* EXPERIENCE */
+
+#experience{
+
+    padding:120px 0;
+
+    background:#F8FAFC;
+    scroll-margin-top:100px;
+
+}
+
+.experience-card{
+
+    max-width:850px;
+
+    margin:60px auto 0;
+
+    background:#FFFFFF;
+
+    border:1px solid #E5E7EB;
+
+    border-radius:24px;
+
+    padding:40px;
+
+    box-shadow:0 15px 35px rgba(0,0,0,.06);
+
+    transition:.3s;
+
+}
+
+.experience-card:hover{
+
+    transform:translateY(-6px);
+
+    box-shadow:0 25px 50px rgba(139,92,246,.12);
+
+}
+
+.experience-date{
+
+    display:inline-block;
+
+    padding:6px 14px;
+
+    border-radius:999px;
+
+    background:#EEF2FF;
+
+    color:#6D28D9;
+
+    font-size:.85rem;
+
+    font-weight:600;
+
+    margin-bottom:15px;
+
+}
+
+.experience-header h3{
+
+    font-size:2rem;
+
+    color:#111827;
+
+    font-weight:700;
+
+    margin-bottom:8px;
+
+}
+
+.experience-header h5{
+
+    color:#8B5CF6;
+
+    font-weight:600;
+
+    margin-bottom:25px;
+
+}
+
+.experience-body p{
+
+    color:#4B5563;
+
+    line-height:1.9;
+
+    margin-bottom:18px;
+
+}
+

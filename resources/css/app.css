@@ -1,0 +1,157 @@
+@import 'bootstrap/dist/css/bootstrap.min.css';
+
+/* Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
+
+@import './components/navbar.css';
+@import './components/hero.css';
+@import './components/about.css';
+@import './components/skills.css';
+@import './components/experience.css';
+@import './components/projects.css';
+@import './components/contact.css';
+@import './components/footer.css';
+
+:root{
+
+    --bg:#070B17;
+    --bg2:#0D1224;
+
+    --card:#121827;
+
+    --primary:#7C3AED;
+    --secondary:#3B82F6;
+
+    --white:#F8FAFC;
+    --text:#CBD5E1;
+    --border:rgba(255,255,255,.08);
+
+}
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+html{
+
+    scroll-behavior:smooth;
+
+}
+
+body{
+
+    font-family:'Poppins',sans-serif;
+
+    background:var(--bg);
+
+    color:var(--white);
+
+    overflow-x:hidden;
+
+}
+
+/* Background Glow */
+
+body::before{
+
+    content:"";
+
+    position:fixed;
+
+    width:700px;
+    height:700px;
+
+    top:-250px;
+    right:-250px;
+
+    background:#2563eb;
+
+    opacity:.18;
+
+    filter:blur(180px);
+
+    z-index:-2;
+    display: none;
+
+}
+
+body::after{
+
+    content:"";
+
+    position:fixed;
+
+    width:650px;
+    height:650px;
+
+    bottom:-300px;
+    left:-200px;
+
+    background:#7c3aed;
+
+    opacity:.15;
+
+    filter:blur(180px);
+
+    z-index:-2;
+    display: none;
+}
+
+section:nth-child(even){
+    background:#F8FAFC;
+}
+
+.container{
+
+    max-width:1250px;
+
+}
+
+/* Headings */
+
+h1{
+
+    font-size:4.5rem;
+    font-weight:800;
+
+}
+
+h2{
+
+    font-size:2.8rem;
+    font-weight:700;
+
+}
+
+p{
+
+    color:var(--text);
+    line-height:1.9;
+
+}
+
+/* Glass Card */
+
+.glass{
+
+    background:#ffffff;
+
+    border:1px solid var(--border);
+
+    border-radius:24px;
+
+    box-shadow:0 10px 30px rgba(0,0,0,.08);
+
+}
+
+section {
+    scroll-margin-top: 90px;
+}
+
+
+
+
+
+

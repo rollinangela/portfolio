@@ -1,0 +1,333 @@
+/* =========================
+   PROJECTS
+========================= */
+
+#projects .section-title{
+    max-width:700px;
+    margin:0 auto 70px;
+    text-align:center;
+}
+
+#projects .section-tag{
+    display:inline-block;
+    color:#8B5CF6;
+    font-size:1rem;
+    font-weight:800;
+    letter-spacing:6px;
+    text-transform:uppercase;
+    margin-bottom:20px;
+}
+
+.project-card{
+    border:none;
+    border-radius:20px;
+    overflow:hidden;
+    background:#fff;
+    box-shadow:0 12px 30px rgba(0,0,0,.08);
+    transition:.35s;
+}
+
+.project-card:hover{
+    transform:translateY(-10px);
+}
+
+.project-image{
+    width:100%;
+    height:320px;
+    object-fit:cover;
+}
+
+.project-content{
+    padding:30px;
+}
+
+.project-content h4{
+    color:#111827;
+    font-weight:700;
+    margin-bottom:15px;
+}
+
+.project-content p{
+    color:#6B7280;
+}
+
+.project-btn{
+    border:none;
+    border-radius:12px;
+    padding:12px 24px;
+    background:linear-gradient(90deg,#8B5CF6,#3B82F6);
+    color:#fff;
+}
+.project-btn:hover{
+
+    transform:translateY(-3px);
+
+    color:white;
+
+}
+
+#projects .section-title h2{
+    color:#FFFFFF;
+}
+
+#projects .section-title p{
+    color:#CBD5E1;
+}
+
+/* ===========================
+   SECTION DIVIDER
+=========================== */
+
+.section-divider{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    padding:20px 0;
+    background:#F8FAFC;
+}
+
+.section-divider::before,
+.section-divider::after{
+    content:"";
+    flex:1;
+    max-width:220px;
+    height:1px;
+    background:#D1D5DB;
+}
+
+.section-divider span{
+    width:14px;
+    height:14px;
+    border-radius:50%;
+    margin:0 20px;
+    background:linear-gradient(135deg,#8B5CF6,#3B82F6);
+    box-shadow:0 0 12px rgba(124,58,237,.35);
+}
+
+/* AutoCAD Gallery */
+
+.modal-body{
+    max-height:75vh;
+    overflow-y:auto;
+    padding:25px;
+}
+
+.drawing-item{
+    margin-bottom:45px;
+}
+
+.drawing-img{
+    width:100%;
+    border-radius:14px;
+    border:1px solid #E5E7EB;
+    box-shadow:0 10px 25px rgba(0,0,0,.08);
+    transition:.3s;
+}
+
+.drawing-img:hover{
+    transform:scale(1.01);
+}
+
+.drawing-info{
+    text-align:center;
+    margin:18px 0 45px;
+}
+
+.drawing-info h5{
+    font-size:28px;
+    font-weight:700;
+    color:#6f42c1;
+    margin-bottom:10px;
+    letter-spacing:.5px;
+}
+
+.drawing-info p{
+    font-size:17px;
+    color:#666;
+    line-height:1.7;
+    max-width:700px;
+    margin:auto;
+}
+
+.gallery-view{
+    display:flex;
+    flex-direction:column;
+    gap:50px;
+}
+
+.gallery-item{
+    width:100%;
+}
+
+.gallery-item img{
+    width:100%;
+    height:auto;
+    display:block;
+    border-radius:14px;
+    border:1px solid #E5E7EB;
+    box-shadow:0 10px 30px rgba(0,0,0,.08);
+}
+
+.gallery-info{
+    margin-top:20px;
+}
+
+.gallery-info h5{
+    font-size:1.3rem;
+    font-weight:500;
+    margin-bottom:1px;
+}
+
+.gallery-info p{
+    color:#64748B;
+    line-height:1.8;
+}
+
+.gallery-info{
+    padding:28px;
+    background:linear-gradient(180deg,#ffffff,#f8f9ff);
+    border-radius:18px;
+    border:1px solid rgba(120,90,255,.12);
+    box-shadow:0 15px 35px rgba(0,0,0,.08);
+}
+
+.gallery-info h5{
+    font-size:1.45rem;
+    font-weight:700;
+    color:#1f2937;
+    margin-bottom:14px;
+    letter-spacing:.5px;
+}
+
+.gallery-info h5::after{
+    content:"";
+    display:block;
+    width:60px;
+    height:3px;
+    background:#7c5cff;
+    border-radius:10px;
+    margin-top:10px;
+}
+
+.gallery-info p{
+    font-size:1.05rem;
+    line-height:1.9;
+    color:#6b7280;
+    margin-top:18px;
+    margin-bottom:0;
+}
+
+
+/* Gallery Titles */
+.gallery-info h5,
+.gallery-view h5{
+    font-size:20px;
+    font-weight:800;
+    color:#7c4dff;
+    letter-spacing:1px;
+    text-transform:uppercase;
+    margin-bottom:12px;
+    text-shadow:0 2px 10px rgba(124,77,255,.15);
+}
+
+/* Gallery Description */
+.gallery-info p,
+.gallery-view p{
+    font-size:17px;
+    font-weight:400;
+    color:#6b7280;
+    line-height:1.8;
+    max-width:750px;
+    margin:0 auto;
+}
+
+/* Center text */
+.gallery-info,
+.gallery-view{
+    text-align:center;
+    padding:20px 0 45px;
+}
+
+.drawing-item h5{
+    font-size:20px;
+    font-weight:800;
+    color:#7c5cff;
+    text-align:center;
+    margin-bottom:25px;
+    letter-spacing:1px;
+    text-transform:uppercase;
+    text-shadow:0 4px 12px rgba(124,92,255,.25);
+    font-family:'Poppins',sans-serif;
+}
+
+.drawing-item p{
+    font-size:17px;
+    color:#6b7280;
+    text-align:center;
+    line-height:1.8;
+    margin-top:20px;
+    font-family:'Poppins',sans-serif;
+}
+
+.gallery-title{
+    font-size: 1.2rem;
+    font-weight: 800;
+    letter-spacing: .5px;
+    color: #222;
+    margin: 0;
+    position: relative;
+    padding-bottom: 12px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.gallery-title::after{
+    content:"";
+    position:absolute;
+    left:0;
+    bottom:0;
+    width:70px;
+    height:4px;
+    background:linear-gradient(90deg,#6f42c1,#8e44ff);
+    border-radius:20px;
+}
+
+.modal-header{
+    border-bottom:none;
+    padding:1.5rem 2rem 1rem;
+}
+
+.modal-content{
+    border:none;
+    border-radius:18px;
+    overflow:hidden;
+    box-shadow:0 20px 60px rgba(0,0,0,.18);
+}
+
+/* StudySync only */
+#studySyncGallery .gallery-img{
+    width:280px;
+    max-width:100%;
+    height:auto;
+    display:block;
+    margin:0 auto;
+}
+
+#studySyncGallery .gallery-img{
+    width:260px;
+    max-width:100%;
+    border-radius:20px;
+    box-shadow:0 10px 25px rgba(0,0,0,.12);
+    transition:.3s;
+}
+
+#studySyncGallery .gallery-img:hover{
+    transform:translateY(-6px);
+}
+
+.studysync-phone{
+    height:620px;
+    width:auto;
+    object-fit:contain;
+    display:block;
+    margin:0 auto;
+}
