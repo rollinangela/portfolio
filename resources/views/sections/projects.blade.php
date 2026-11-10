@@ -21,7 +21,7 @@
         <div class="row g-4">
 
             <!-- Project: Wupfleet -->
-<div class="col-lg-4 mb-4">
+<div class="col-lg-3 mb-4">
 
     <div class="card project-card h-100">
 
@@ -77,7 +77,7 @@
 </div>
 
             <!-- Project 2 -->
-           <div class="col-lg-4 mb-4">
+           <div class="col-lg-3 mb-4">
 
     <div class="card project-card h-100">
 
@@ -122,7 +122,7 @@
 
 </div>
             <!-- Project 3 -->
-<div class="col-lg-4 mb-4">
+<div class="col-lg-3 mb-4">
 
     <div class="card project-card h-100">
 
@@ -162,6 +162,60 @@
     </div>
 
 </div>
+
+
+<!-- Project 4: Graphic Design -->
+<div class="col-lg-3 mb-4">
+
+    <div class="card project-card h-100">
+
+        <img src="{{ asset('images/projects/graphic-design/graphic-design-preview.png') }}"
+             class="card-img-top project-image"
+             alt="Graphic Design Projects"
+             style="height:260px; object-fit:contain; background:#f8f9fa;">
+
+        <div class="card-body project-content">
+
+            <h4 class="fw-bold">
+                Graphic Design & Promotional Materials
+            </h4>
+
+            <p>
+                A collection of graphic design and marketing materials created
+                for business promotions and product advertising. Includes
+                promotional posters, tarpaulin layouts, website banners, and
+                social media graphics, showcasing creativity, visual
+                communication, and layout design skills.
+            </p>
+
+            <span class="badge" style="background:#DB2777;">
+                Graphic Design
+            </span>
+
+            <span class="badge bg-primary">
+                Canva
+            </span>
+
+            <span class="badge bg-dark">
+                Marketing Materials
+            </span>
+
+            <br><br>
+
+            <button class="btn project-btn"
+                    data-bs-toggle="modal"
+                    data-bs-target="#graphicDesignGallery">
+
+                View Gallery
+
+            </button>
+
+        </div>
+
+    </div>
+
+</div>
+
 
 
 <!-- Wupfleet Gallery -->
@@ -660,6 +714,122 @@
 </div>
 
 </div>
+  
+
+<!-- Graphic Design Gallery -->
+<div class="modal fade"
+     id="graphicDesignGallery"
+     tabindex="-1">
+
+    <div class="modal-dialog modal-xl modal-dialog-scrollable">
+
+        <div class="modal-content">
+
+            <div class="modal-header">
+
+                <h3 class="modal-title gallery-title">
+                    🎨 Graphic Design & Promotional Materials
+                </h3>
+
+                <button class="btn-close"
+                        data-bs-dismiss="modal">
+                </button>
+
+            </div>
+
+            <div class="modal-body">
+
+                <div class="gallery-view">
+
+                    <!-- Promotional Posters -->
+                    <div class="gallery-item">
+
+                        <img src="{{ asset('images/projects/graphic-design/poster-1.png') }}"
+                             class="gallery-img"
+                             alt="Promotional Poster">
+
+                        <div class="gallery-info">
+                            <h5>Promotional Posters</h5>
+                            <p>
+                                Creative promotional posters designed to
+                                highlight products, communicate key
+                                information, and attract customers.
+                            </p>
+                        </div>
+
+                    </div>
+
+                    <hr class="drawing-divider">
+
+                    <!-- Tarpaulin Designs -->
+                    <div class="gallery-item">
+
+                        <img src="{{ asset('images/projects/graphic-design/tarpaulin-1.png') }}"
+                             class="gallery-img"
+                             alt="Tarpaulin Design">
+
+                        <div class="gallery-info">
+                            <h5>Tarpaulin Designs</h5>
+                            <p>
+                                Large-format promotional layouts created
+                                for business advertising and product
+                                presentations.
+                            </p>
+                        </div>
+
+                    </div>
+
+                    <hr class="drawing-divider">
+
+                    <!-- Website Banners -->
+                    <div class="gallery-item">
+
+                        <img src="{{ asset('images/projects/graphic-design/banner-1.png') }}"
+                             class="gallery-img"
+                             alt="Website Banner">
+
+                        <div class="gallery-info">
+                            <h5>Website Banners</h5>
+                            <p>
+                                Website promotional banners designed
+                                to present products and create visually
+                                engaging marketing content.
+                            </p>
+                        </div>
+
+                    </div>
+
+                    <hr class="drawing-divider">
+
+                    <!-- Social Media Graphics -->
+                    <div class="gallery-item">
+
+                        <img src="{{ asset('images/projects/graphic-design/social-media-1.png') }}"
+                             class="gallery-img"
+                             alt="Social Media Graphics">
+
+                        <div class="gallery-info">
+                            <h5>Social Media Graphics</h5>
+                            <p>
+                                Digital marketing visuals created for
+                                social media promotions, product
+                                advertising, and brand presentation.
+                            </p>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+
 
 </div>
 
